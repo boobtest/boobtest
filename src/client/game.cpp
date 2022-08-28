@@ -294,7 +294,7 @@ public:
 		}
 	}
 
-	static void viewBobbingStep(MtEvent *e, void *data)
+	static void viewBoobingStep(MtEvent *e, void *data)
 	{
 		SoundMaker *sm = (SoundMaker *)data;
 		sm->playPlayerStep();
@@ -345,7 +345,7 @@ public:
 
 	void registerReceiver(MtEventManager *mgr)
 	{
-		mgr->reg(MtEvent::VIEW_BOBBING_STEP, SoundMaker::viewBobbingStep, this);
+		mgr->reg(MtEvent::VIEW_BOBBING_STEP, SoundMaker::viewBoobingStep, this);
 		mgr->reg(MtEvent::PLAYER_REGAIN_GROUND, SoundMaker::playerRegainGround, this);
 		mgr->reg(MtEvent::PLAYER_JUMP, SoundMaker::playerJump, this);
 		mgr->reg(MtEvent::CAMERA_PUNCH_LEFT, SoundMaker::cameraPunchLeft, this);
@@ -3066,11 +3066,11 @@ void Game::processPlayerInteraction(f32 dtime, bool show_hud)
 
 	switch (camera->getCameraMode()) {
 	case CAMERA_MODE_FIRST:
-		// Shoot from camera position, with bobbing
+		// Shoot from camera position, with boobing
 		shootline.start = camera->getPosition();
 		break;
 	case CAMERA_MODE_THIRD:
-		// Shoot from player head, no bobbing
+		// Shoot from player head, no boobing
 		shootline.start = camera->getHeadPosition();
 		break;
 	case CAMERA_MODE_THIRD_FRONT:

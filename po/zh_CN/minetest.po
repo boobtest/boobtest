@@ -2625,7 +2625,7 @@ msgid "Block send optimize distance"
 msgstr "最优方块发送距离"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3384,8 +3384,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "启用视角摇动和视角摇动幅度。\n"
 "例如：0是不摇动；1.0正常摇动；2.0双倍。"
@@ -3487,7 +3487,7 @@ msgid "Factor noise"
 msgstr "系数噪声"
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr "坠落上下摆动系数"
 
 #: src/settings_translation_file.cpp
@@ -5918,8 +5918,8 @@ msgstr "泥土噪声"
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "掉落摇动倍数。\n"
 "例如：设为0则不摇动；1.0则正常；2.0则两倍。"
@@ -7376,7 +7376,7 @@ msgid "Video driver"
 msgstr "视频驱动程序"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr "视野晃动系数"
 
 #: src/settings_translation_file.cpp

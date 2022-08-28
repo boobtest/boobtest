@@ -2630,7 +2630,7 @@ msgid "Block send optimize distance"
 msgstr "Distans för optimering av blockskickning"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr "Guppande"
 
 #: src/settings_translation_file.cpp
@@ -3406,8 +3406,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Aktivera guppande och mängden guppande.\n"
 "Till exempel: 0 för inget guppande, 1.0 för normalt, 2.0 för dubbla."
@@ -3506,8 +3506,8 @@ msgid "Factor noise"
 msgstr "Faktorbrus"
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
-msgstr "Fallets bobbingfaktor"
+msgid "Fall boobing factor"
+msgstr "Fallets boobingfaktor"
 
 #: src/settings_translation_file.cpp
 msgid "Fallback font path"
@@ -5575,8 +5575,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -6840,7 +6840,7 @@ msgid "Video driver"
 msgstr ""
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr ""
 
 #: src/settings_translation_file.cpp

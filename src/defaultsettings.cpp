@@ -205,8 +205,8 @@ void set_default_settings()
 	settings->setDefault("camera_smoothing", "0");
 	settings->setDefault("cinematic_camera_smoothing", "0.7");
 	settings->setDefault("enable_clouds", "true");
-	settings->setDefault("view_bobbing_amount", "1.0");
-	settings->setDefault("fall_bobbing_amount", "0.03");
+	settings->setDefault("view_boobing_amount", "1.0");
+	settings->setDefault("fall_boobing_amount", "0.03");
 	settings->setDefault("enable_3d_clouds", "true");
 	settings->setDefault("cloud_radius", "12");
 	settings->setDefault("menu_clouds", "true");

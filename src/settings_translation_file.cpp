@@ -79,13 +79,13 @@ fake_function() {
 	gettext("3D support.\nCurrently supported:\n-    none: no 3d output.\n-    anaglyph: cyan/magenta color 3d.\n-    interlaced: odd/even line based polarisation screen support.\n-    topbottom: split screen top/bottom.\n-    sidebyside: split screen side by side.\n-    crossview: Cross-eyed 3d\n-    pageflip: quadbuffer based 3d.\nNote that the interlaced mode requires shaders to be enabled.");
 	gettext("3D mode parallax strength");
 	gettext("Strength of 3D mode parallax.");
-	gettext("Bobbing");
+	gettext("Boobing");
 	gettext("Arm inertia");
 	gettext("Arm inertia, gives a more realistic movement of\nthe arm when the camera moves.");
-	gettext("View bobbing factor");
-	gettext("Enable view bobbing and amount of view bobbing.\nFor example: 0 for no view bobbing; 1.0 for normal; 2.0 for double.");
-	gettext("Fall bobbing factor");
-	gettext("Multiplier for fall bobbing.\nFor example: 0 for no view bobbing; 1.0 for normal; 2.0 for double.");
+	gettext("View boobing factor");
+	gettext("Enable view boobing and amount of view boobing.\nFor example: 0 for no view boobing; 1.0 for normal; 2.0 for double.");
+	gettext("Fall boobing factor");
+	gettext("Multiplier for fall boobing.\nFor example: 0 for no view boobing; 1.0 for normal; 2.0 for double.");
 	gettext("Camera");
 	gettext("Near plane");
 	gettext("Camera 'near clipping plane' distance in nodes, between 0 and 0.25\nOnly works on GLES platforms. Most users will not need to change this.\nIncreasing can reduce artifacting on weaker GPUs.\n0.1 = Default, 0.25 = Good value for weaker tablets.");

@@ -195,22 +195,22 @@
 #    type: float min: -0.087 max: 0.087
 # 3d_paralax_strength = 0.025
 
-### Bobbing
+### Boobing
 
 #    Arm inertia, gives a more realistic movement of
 #    the arm when the camera moves.
 #    type: bool
 # arm_inertia = true
 
-#    Enable view bobbing and amount of view bobbing.
-#    For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double.
+#    Enable view boobing and amount of view boobing.
+#    For example: 0 for no view boobing; 1.0 for normal; 2.0 for double.
 #    type: float min: 0 max: 7.9
-# view_bobbing_amount = 1.0
+# view_boobing_amount = 1.0
 
-#    Multiplier for fall bobbing.
-#    For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double.
+#    Multiplier for fall boobing.
+#    For example: 0 for no view boobing; 1.0 for normal; 2.0 for double.
 #    type: float min: 0 max: 100
-# fall_bobbing_amount = 0.03
+# fall_boobing_amount = 0.03
 
 ### Camera
 

@@ -2735,7 +2735,7 @@ msgid "Block send optimize distance"
 msgstr "Umbo la Max Tuma umbali"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3489,8 +3489,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Mengi kwa ajili ya Mwoneko kando.\n"
 "Kwa mfano: 0 kwa ajili ya Mwoneko hakuna kando; 1.0 kwa ajili ya kawaida; "
@@ -3583,8 +3583,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 #, fuzzy
-msgid "Fall bobbing factor"
-msgstr "Kuanguka bobbing"
+msgid "Fall boobing factor"
+msgstr "Kuanguka boobing"
 
 #: src/settings_translation_file.cpp
 #, fuzzy
@@ -6095,8 +6095,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Mengi kwa ajili ya kuanguka kando.\n"
 "Kwa mfano: 0 kwa ajili ya Mwoneko hakuna kando; 1.0 kwa ajili ya kawaida; "
@@ -7516,7 +7516,7 @@ msgstr "Kiendeshaji video"
 
 #: src/settings_translation_file.cpp
 #, fuzzy
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr "Mwoneko kando"
 
 #: src/settings_translation_file.cpp

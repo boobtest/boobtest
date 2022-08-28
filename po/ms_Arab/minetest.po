@@ -2639,7 +2639,7 @@ msgid "Block send optimize distance"
 msgstr ""
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3377,8 +3377,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "ڤندارب اونتوق ڤڠاڤوڠن ڤندڠن.\n"
 "چونتوهڽ: 0 اونتوق تيادا اڤوڠن⁏ 1.0 اونتوق بياسا⁏ 2.0 اونتوق دوا کالي ݢندا."
@@ -3476,7 +3476,7 @@ msgid "Factor noise"
 msgstr ""
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr "فکتور اڤوڠن کجاتوهن"
 
 #: src/settings_translation_file.cpp
@@ -5813,8 +5813,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "ڤندارب اونتوق اڤوڠن تيمبول تڠݢلم.\n"
 "چونتوهڽ: 0 اونتوق تيادا اڤوڠن⁏ 1.0 اونتوق بياسا⁏ 2.0 اونتوق دوا کالي ݢندا."
@@ -7220,7 +7220,7 @@ msgid "Video driver"
 msgstr "ڤماچو ۏيديو"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr "فکتور اڤوڠن ڤندڠ"
 
 #: src/settings_translation_file.cpp

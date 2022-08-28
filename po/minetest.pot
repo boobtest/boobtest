@@ -2489,7 +2489,7 @@ msgid "Strength of 3D mode parallax."
 msgstr ""
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -2503,23 +2503,23 @@ msgid ""
 msgstr ""
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 
 #: src/settings_translation_file.cpp

@@ -2651,7 +2651,7 @@ msgid "Block send optimize distance"
 msgstr "Dystans optymalizacji wysyłanych bloków"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3449,8 +3449,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Włącz drganie widoku i ilość tych drgań.\n"
 "Dla przykładu: 0 dla braku drgań; 1.0 dla normalnych; 2.0 dla podwójnych."
@@ -3566,7 +3566,7 @@ msgid "Factor noise"
 msgstr "Współczynnik szumu"
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr "Współczynnik spadku drgań"
 
 #: src/settings_translation_file.cpp
@@ -6224,8 +6224,8 @@ msgstr "Szum błota"
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Mnożnik dla drgań upadku.\n"
 "Przykład: 0 dla braku drgań widoku; 1.0 dla normalnych; 2.0 dla podwójnych."
@@ -7835,7 +7835,7 @@ msgid "Video driver"
 msgstr "Sterownik graficzny"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr "Współczynnik rozmycia widoku ruchu"
 
 #: src/settings_translation_file.cpp

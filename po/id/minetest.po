@@ -2638,7 +2638,7 @@ msgid "Block send optimize distance"
 msgstr "Jarak optimasi pengiriman blok"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3414,11 +3414,11 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
-"Gunakan view bobbing dan nilai dari view bobbing\n"
-"Misalkan: 0 untuk tanpa view bobbing; 1.0 untuk normal; 2.0 untuk 2x lipat."
+"Gunakan view boobing dan nilai dari view boobing\n"
+"Misalkan: 0 untuk tanpa view boobing; 1.0 untuk normal; 2.0 untuk 2x lipat."
 
 #: src/settings_translation_file.cpp
 msgid ""
@@ -3521,8 +3521,8 @@ msgid "Factor noise"
 msgstr "Noise faktor"
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
-msgstr "Faktor fall bobbing"
+msgid "Fall boobing factor"
+msgstr "Faktor fall boobing"
 
 #: src/settings_translation_file.cpp
 msgid "Fallback font path"
@@ -5986,11 +5986,11 @@ msgstr "Noise lumpur"
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
-"Pengali untuk fall bobbing.\n"
-"Misalkan: 0 untuk tanpa view bobbing; 1.0 untuk normal; 2.0 untuk 2x lipat."
+"Pengali untuk fall boobing.\n"
+"Misalkan: 0 untuk tanpa view boobing; 1.0 untuk normal; 2.0 untuk 2x lipat."
 
 #: src/settings_translation_file.cpp
 msgid "Mute key"
@@ -7503,8 +7503,8 @@ msgid "Video driver"
 msgstr "Pengandar video"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
-msgstr "Faktor view bobbing"
+msgid "View boobing factor"
+msgstr "Faktor view boobing"
 
 #: src/settings_translation_file.cpp
 msgid "View distance in nodes."

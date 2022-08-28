@@ -2627,7 +2627,7 @@ msgid "Block send optimize distance"
 msgstr "บล็อกส่งระยะทางเพิ่มประสิทธิภาพ"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3388,8 +3388,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "เปิดใช้งานการ จำกัด การดูและจำนวนการดาวน์โหลดที่ จำกัด\n"
 "ตัวอย่างเช่น: 0 ที่ไม่มีการสั่น 1.0 สำหรับปกติ 2.0 สำหรับสองเท่า"
@@ -3494,7 +3494,7 @@ msgid "Factor noise"
 msgstr "ปัจจัยเสียง"
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr "ตกปัจจัยผลุบๆโผล่ๆ"
 
 #: src/settings_translation_file.cpp
@@ -5923,8 +5923,8 @@ msgstr "เสียงโคลน"
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "ตัวคูณสำหรับการร่วงหล่น\n"
 "ตัวอย่างเช่น: 0 ที่ไม่มีการสั่น 1.0 สำหรับปกติ 2.0 สำหรับสองเท่า"
@@ -7412,7 +7412,7 @@ msgid "Video driver"
 msgstr "ไดรเวอร์วิดีโอ"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr "ดูปัจจัยผลุบๆโผล่ๆ"
 
 #: src/settings_translation_file.cpp

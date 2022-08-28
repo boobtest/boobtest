@@ -211,19 +211,19 @@ enable_particles (Digging particles) bool true
 #    Strength of 3D mode parallax.
 3d_paralax_strength (3D mode parallax strength) float 0.025 -0.087 0.087
 
-[**Bobbing]
+[**Boobing]
 
 #    Arm inertia, gives a more realistic movement of
 #    the arm when the camera moves.
 arm_inertia (Arm inertia) bool true
 
-#    Enable view bobbing and amount of view bobbing.
-#    For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double.
-view_bobbing_amount (View bobbing factor) float 1.0 0.0 7.9
+#    Enable view boobing and amount of view boobing.
+#    For example: 0 for no view boobing; 1.0 for normal; 2.0 for double.
+view_boobing_amount (View boobing factor) float 1.0 0.0 7.9
 
-#    Multiplier for fall bobbing.
-#    For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double.
-fall_bobbing_amount (Fall bobbing factor) float 0.03 0.0 100.0
+#    Multiplier for fall boobing.
+#    For example: 0 for no view boobing; 1.0 for normal; 2.0 for double.
+fall_boobing_amount (Fall boobing factor) float 0.03 0.0 100.0
 
 [**Camera]
 

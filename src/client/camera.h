@@ -73,7 +73,7 @@ enum CameraMode {CAMERA_MODE_FIRST, CAMERA_MODE_THIRD, CAMERA_MODE_THIRD_FRONT};
 
 /*
 	Client camera class, manages the player and camera scene nodes, the viewing distance
-	and performs view bobbing etc. It also displays the wielded tool in front of the
+	and performs view boobing etc. It also displays the wielded tool in front of the
 	first-person camera.
 */
 class Camera
@@ -83,14 +83,14 @@ public:
 	~Camera();
 
 	// Get camera scene node.
-	// It has the eye transformation, pitch and view bobbing applied.
+	// It has the eye transformation, pitch and view boobing applied.
 	inline scene::ICameraSceneNode* getCameraNode() const
 	{
 		return m_cameranode;
 	}
 
 	// Get the camera position (in absolute scene coordinates).
-	// This has view bobbing applied.
+	// This has view boobing applied.
 	inline v3f getPosition() const
 	{
 		return m_camera_position;
@@ -103,7 +103,7 @@ public:
 	}
 
 	// Get the camera direction (in absolute camera coordinates).
-	// This has view bobbing applied.
+	// This has view boobing applied.
 	inline v3f getDirection() const
 	{
 		return m_camera_direction;
@@ -136,7 +136,7 @@ public:
 	// Notify about new server-sent FOV and initialize smooth FOV transition
 	void notifyFovChange();
 
-	// Step the camera: updates the viewing range and view bobbing.
+	// Step the camera: updates the viewing range and view boobing.
 	void step(f32 dtime);
 
 	// Update the camera from the local player's position.
@@ -234,16 +234,16 @@ private:
 	f32 m_fov_x = 1.0f;
 	f32 m_fov_y = 1.0f;
 
-	// View bobbing animation frame (0 <= m_view_bobbing_anim < 1)
-	f32 m_view_bobbing_anim = 0.0f;
-	// If 0, view bobbing is off (e.g. player is standing).
-	// If 1, view bobbing is on (player is walking).
-	// If 2, view bobbing is getting switched off.
-	s32 m_view_bobbing_state = 0;
-	// Speed of view bobbing animation
-	f32 m_view_bobbing_speed = 0.0f;
-	// Fall view bobbing
-	f32 m_view_bobbing_fall = 0.0f;
+	// View boobing animation frame (0 <= m_view_boobing_anim < 1)
+	f32 m_view_boobing_anim = 0.0f;
+	// If 0, view boobing is off (e.g. player is standing).
+	// If 1, view boobing is on (player is walking).
+	// If 2, view boobing is getting switched off.
+	s32 m_view_boobing_state = 0;
+	// Speed of view boobing animation
+	f32 m_view_boobing_speed = 0.0f;
+	// Fall view boobing
+	f32 m_view_boobing_fall = 0.0f;
 
 	// Digging animation frame (0 <= m_digging_anim < 1)
 	f32 m_digging_anim = 0.0f;
@@ -258,8 +258,8 @@ private:
 
 	CameraMode m_camera_mode = CAMERA_MODE_FIRST;
 
-	f32 m_cache_fall_bobbing_amount;
-	f32 m_cache_view_bobbing_amount;
+	f32 m_cache_fall_boobing_amount;
+	f32 m_cache_view_boobing_amount;
 	bool m_arm_inertia;
 
 	std::list<Nametag *> m_nametags;

@@ -2657,7 +2657,7 @@ msgid "Block send optimize distance"
 msgstr "Distanza di ottimizzazione dell'invio dei blocchi"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3450,8 +3450,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Attivare l'ondeggiamento visivo e ammontare del medesimo.\n"
 "Per esempio: 0 per nessun ondeggiamento, 1.0 per normale, 2.0 per doppio."
@@ -3562,7 +3562,7 @@ msgid "Factor noise"
 msgstr "Rumore di fattore"
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr "Fattore di ondeggiamento in caduta"
 
 #: src/settings_translation_file.cpp
@@ -6079,8 +6079,8 @@ msgstr "Rumore del fango"
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Moltiplicatore per l'ondeggiamento in caduta.\n"
 "Per esempio: 0 per nessun ondeggiamento visivo, 1.0 normale, 2.0 doppio."
@@ -7657,7 +7657,7 @@ msgid "Video driver"
 msgstr "Driver video"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr "Fattore di ondeggiamento visivo"
 
 #: src/settings_translation_file.cpp

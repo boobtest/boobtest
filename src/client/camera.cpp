@@ -75,8 +75,8 @@ Camera::Camera(MapDrawControl &draw_control, Client *client, RenderingEngine *re
 	 *       (as opposed to the this local caching). This can be addressed in
 	 *       a later release.
 	 */
-	m_cache_fall_bobbing_amount = g_settings->getFloat("fall_bobbing_amount", 0.0f, 100.0f);
-	m_cache_view_bobbing_amount = g_settings->getFloat("view_bobbing_amount", 0.0f, 7.9f);
+	m_cache_fall_boobing_amount = g_settings->getFloat("fall_boobing_amount", 0.0f, 100.0f);
+	m_cache_view_boobing_amount = g_settings->getFloat("view_boobing_amount", 0.0f, 7.9f);
 	// 45 degrees is the lowest FOV that doesn't cause the server to treat this
 	// as a zoom FOV and load world beyond the set server limits.
 	m_cache_fov                 = g_settings->getFloat("fov", 45.0f, 160.0f);
@@ -144,11 +144,11 @@ inline f32 my_modf(f32 x)
 
 void Camera::step(f32 dtime)
 {
-	if(m_view_bobbing_fall > 0)
+	if(m_view_boobing_fall > 0)
 	{
-		m_view_bobbing_fall -= 3 * dtime;
-		if(m_view_bobbing_fall <= 0)
-			m_view_bobbing_fall = -1; // Mark the effect as finished
+		m_view_boobing_fall -= 3 * dtime;
+		if(m_view_boobing_fall <= 0)
+			m_view_boobing_fall = -1; // Mark the effect as finished
 	}
 
 	bool was_under_zero = m_wield_change_timer < 0;
@@ -159,38 +159,38 @@ void Camera::step(f32 dtime)
 		m_wieldnode->setNodeLightColor(m_player_light_color);
 	}
 
-	if (m_view_bobbing_state != 0)
+	if (m_view_boobing_state != 0)
 	{
-		//f32 offset = dtime * m_view_bobbing_speed * 0.035;
-		f32 offset = dtime * m_view_bobbing_speed * 0.030;
-		if (m_view_bobbing_state == 2) {
+		//f32 offset = dtime * m_view_boobing_speed * 0.035;
+		f32 offset = dtime * m_view_boobing_speed * 0.030;
+		if (m_view_boobing_state == 2) {
 			// Animation is getting turned off
-			if (m_view_bobbing_anim < 0.25) {
-				m_view_bobbing_anim -= offset;
-			} else if (m_view_bobbing_anim > 0.75) {
-				m_view_bobbing_anim += offset;
-			} else if (m_view_bobbing_anim < 0.5) {
-				m_view_bobbing_anim += offset;
-				if (m_view_bobbing_anim > 0.5)
-					m_view_bobbing_anim = 0.5;
+			if (m_view_boobing_anim < 0.25) {
+				m_view_boobing_anim -= offset;
+			} else if (m_view_boobing_anim > 0.75) {
+				m_view_boobing_anim += offset;
+			} else if (m_view_boobing_anim < 0.5) {
+				m_view_boobing_anim += offset;
+				if (m_view_boobing_anim > 0.5)
+					m_view_boobing_anim = 0.5;
 			} else {
-				m_view_bobbing_anim -= offset;
-				if (m_view_bobbing_anim < 0.5)
-					m_view_bobbing_anim = 0.5;
+				m_view_boobing_anim -= offset;
+				if (m_view_boobing_anim < 0.5)
+					m_view_boobing_anim = 0.5;
 			}
 
-			if (m_view_bobbing_anim <= 0 || m_view_bobbing_anim >= 1 ||
-					fabs(m_view_bobbing_anim - 0.5) < 0.01) {
-				m_view_bobbing_anim = 0;
-				m_view_bobbing_state = 0;
+			if (m_view_boobing_anim <= 0 || m_view_boobing_anim >= 1 ||
+					fabs(m_view_boobing_anim - 0.5) < 0.01) {
+				m_view_boobing_anim = 0;
+				m_view_boobing_state = 0;
 			}
 		}
 		else {
-			float was = m_view_bobbing_anim;
-			m_view_bobbing_anim = my_modf(m_view_bobbing_anim + offset);
+			float was = m_view_boobing_anim;
+			m_view_boobing_anim = my_modf(m_view_boobing_anim + offset);
 			bool step = (was == 0 ||
-					(was < 0.5f && m_view_bobbing_anim >= 0.5f) ||
-					(was > 0.5f && m_view_bobbing_anim <= 0.5f));
+					(was < 0.5f && m_view_boobing_anim >= 0.5f) ||
+					(was > 0.5f && m_view_boobing_anim <= 0.5f));
 			if(step) {
 				m_client->getEventManager()->put(new SimpleTriggerEvent(MtEvent::VIEW_BOBBING_STEP));
 			}
@@ -348,24 +348,24 @@ void Camera::update(LocalPlayer* player, f32 frametime, f32 tool_reload_ratio)
 	// Get camera tilt timer (hurt animation)
 	float cameratilt = fabs(fabs(player->hurt_tilt_timer-0.75)-0.75);
 
-	// Fall bobbing animation
-	float fall_bobbing = 0;
+	// Fall boobing animation
+	float fall_boobing = 0;
 	if(player->camera_impact >= 1 && m_camera_mode < CAMERA_MODE_THIRD)
 	{
-		if(m_view_bobbing_fall == -1) // Effect took place and has finished
-			player->camera_impact = m_view_bobbing_fall = 0;
-		else if(m_view_bobbing_fall == 0) // Initialize effect
-			m_view_bobbing_fall = 1;
+		if(m_view_boobing_fall == -1) // Effect took place and has finished
+			player->camera_impact = m_view_boobing_fall = 0;
+		else if(m_view_boobing_fall == 0) // Initialize effect
+			m_view_boobing_fall = 1;
 
 		// Convert 0 -> 1 to 0 -> 1 -> 0
-		fall_bobbing = m_view_bobbing_fall < 0.5 ? m_view_bobbing_fall * 2 : -(m_view_bobbing_fall - 0.5) * 2 + 1;
+		fall_boobing = m_view_boobing_fall < 0.5 ? m_view_boobing_fall * 2 : -(m_view_boobing_fall - 0.5) * 2 + 1;
 		// Smoothen and invert the above
-		fall_bobbing = sin(fall_bobbing * 0.5 * M_PI) * -1;
+		fall_boobing = sin(fall_boobing * 0.5 * M_PI) * -1;
 		// Amplify according to the intensity of the impact
 		if (player->camera_impact > 0.0f)
-			fall_bobbing *= (1 - rangelim(50 / player->camera_impact, 0, 1)) * 5;
+			fall_boobing *= (1 - rangelim(50 / player->camera_impact, 0, 1)) * 5;
 
-		fall_bobbing *= m_cache_fall_bobbing_amount;
+		fall_boobing *= m_cache_fall_boobing_amount;
 	}
 
 	// Calculate and translate the head SceneNode offsets
@@ -377,7 +377,7 @@ void Camera::update(LocalPlayer* player, f32 frametime, f32 tool_reload_ratio)
 			eye_offset += player->eye_offset_third;
 
 		// Set head node transformation
-		eye_offset.Y += cameratilt * -player->hurt_tilt_strength + fall_bobbing;
+		eye_offset.Y += cameratilt * -player->hurt_tilt_strength + fall_boobing;
 		m_headnode->setPosition(eye_offset);
 		m_headnode->setRotation(v3f(player->getPitch(), 0,
 			cameratilt * player->hurt_tilt_strength));
@@ -389,10 +389,10 @@ void Camera::update(LocalPlayer* player, f32 frametime, f32 tool_reload_ratio)
 	v3f rel_cam_target = v3f(0,0,1);
 	v3f rel_cam_up = v3f(0,1,0);
 
-	if (m_cache_view_bobbing_amount != 0.0f && m_view_bobbing_anim != 0.0f &&
+	if (m_cache_view_boobing_amount != 0.0f && m_view_boobing_anim != 0.0f &&
 		m_camera_mode < CAMERA_MODE_THIRD) {
-		f32 bobfrac = my_modf(m_view_bobbing_anim * 2);
-		f32 bobdir = (m_view_bobbing_anim < 0.5) ? 1.0 : -1.0;
+		f32 bobfrac = my_modf(m_view_boobing_anim * 2);
+		f32 bobdir = (m_view_boobing_anim < 0.5) ? 1.0 : -1.0;
 
 		f32 bobknob = 1.2;
 		f32 bobtmp = sin(pow(bobfrac, bobknob) * M_PI);
@@ -402,9 +402,9 @@ void Camera::update(LocalPlayer* player, f32 frametime, f32 tool_reload_ratio)
 			-0.28 * bobtmp * bobtmp,
 			0.);
 
-		rel_cam_pos += bobvec * m_cache_view_bobbing_amount;
-		rel_cam_target += bobvec * m_cache_view_bobbing_amount;
-		rel_cam_up.rotateXYBy(-0.03 * bobdir * bobtmp * M_PI * m_cache_view_bobbing_amount);
+		rel_cam_pos += bobvec * m_cache_view_boobing_amount;
+		rel_cam_target += bobvec * m_cache_view_boobing_amount;
+		rel_cam_up.rotateXYBy(-0.03 * bobdir * bobtmp * M_PI * m_cache_view_boobing_amount);
 	}
 
 	// Compute absolute camera position and target
@@ -551,7 +551,7 @@ void Camera::update(LocalPlayer* player, f32 frametime, f32 tool_reload_ratio)
 		quat_slerp.toEuler(wield_rotation);
 		wield_rotation *= core::RADTODEG;
 	} else {
-		f32 bobfrac = my_modf(m_view_bobbing_anim);
+		f32 bobfrac = my_modf(m_view_boobing_anim);
 		wield_position.X -= sin(bobfrac*M_PI*2.0) * 3.0;
 		wield_position.Y += sin(my_modf(bobfrac*2.0)*M_PI) * 3.0;
 	}
@@ -565,8 +565,8 @@ void Camera::update(LocalPlayer* player, f32 frametime, f32 tool_reload_ratio)
 	updateViewingRange();
 
 	// If the player is walking, swimming, or climbing,
-	// view bobbing is enabled and free_move is off,
-	// start (or continue) the view bobbing animation.
+	// view boobing is enabled and free_move is off,
+	// start (or continue) the view boobing animation.
 	const v3f &speed = player->getSpeed();
 	const bool movement_XZ = hypot(speed.X, speed.Z) > BS;
 	const bool movement_Y = fabs(speed.Y) > BS;
@@ -578,12 +578,12 @@ void Camera::update(LocalPlayer* player, f32 frametime, f32 tool_reload_ratio)
 		&& m_client->checkLocalPrivilege("fly");
 	if ((walking || swimming || climbing) && !flying) {
 		// Start animation
-		m_view_bobbing_state = 1;
-		m_view_bobbing_speed = MYMIN(speed.getLength(), 70);
-	} else if (m_view_bobbing_state == 1) {
+		m_view_boobing_state = 1;
+		m_view_boobing_speed = MYMIN(speed.getLength(), 70);
+	} else if (m_view_boobing_state == 1) {
 		// Stop animation
-		m_view_bobbing_state = 2;
-		m_view_bobbing_speed = 60;
+		m_view_boobing_state = 2;
+		m_view_boobing_speed = 60;
 	}
 }
 

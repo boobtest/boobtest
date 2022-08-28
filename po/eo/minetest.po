@@ -2648,7 +2648,7 @@ msgid "Block send optimize distance"
 msgstr "Optimuma distanco de monder-sendado"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3426,8 +3426,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Ŝalti balanciĝon kaj ĝian fortecon.\n"
 "Ekzemple: 0 por nenioma balanciĝo, 1.0 por normala, 2.0 por duobla."
@@ -3531,7 +3531,7 @@ msgid "Factor noise"
 msgstr "Koeficienta bruo"
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr "Koeficiento de balancado dum falo"
 
 #: src/settings_translation_file.cpp
@@ -5990,8 +5990,8 @@ msgstr "Bruo de koto"
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Obligilo por fala balancado.\n"
 "Ekzemple: 0 por neniu balancado; 1.0 por normala; 2.0 por duobla."
@@ -7507,7 +7507,7 @@ msgid "Video driver"
 msgstr "Videa pelilo"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr "Koeficiento de balancado de vido"
 
 #: src/settings_translation_file.cpp

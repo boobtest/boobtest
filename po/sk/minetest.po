@@ -2637,7 +2637,7 @@ msgid "Block send optimize distance"
 msgstr "Vzdialenosť pre optimalizáciu posielania blokov"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr "Nadskakovanie"
 
 #: src/settings_translation_file.cpp
@@ -3408,8 +3408,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Aktivuj pohupovanie sa a hodnotu pohupovania.\n"
 "Napr.: 0 pre žiadne pohupovanie; 1.0 pre normálne; 2.0 pre dvojnásobné."
@@ -3514,7 +3514,7 @@ msgid "Factor noise"
 msgstr "Faktor šumu"
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr "Faktor pohupovania sa pri pádu"
 
 #: src/settings_translation_file.cpp
@@ -5978,8 +5978,8 @@ msgstr "Šum bahna"
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Násobiteľ pre pohupovanie sa pri pádu.\n"
 "Napr.: 0 pre žiadne pohupovanie; 1.0 pre normálne; 2.0 pre dvojnásobné."
@@ -7478,7 +7478,7 @@ msgid "Video driver"
 msgstr "Grafický ovládač"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr "Faktor pohupovania sa"
 
 #: src/settings_translation_file.cpp

@@ -2655,7 +2655,7 @@ msgid "Block send optimize distance"
 msgstr "블록 전송 최적화 거리"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3394,8 +3394,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "화면 흔들림 멀티플라이어\n"
 "예 : 0은 화면 흔들림 없음; 1.0은 노멀; 2.0은 더블."
@@ -3485,7 +3485,7 @@ msgid "Factor noise"
 msgstr ""
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr "낙하 흔들림"
 
 #: src/settings_translation_file.cpp
@@ -5765,8 +5765,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "낙하 흔들림 멀티플라이어\n"
 "예 : 0은 화면 흔들림 없음; 1.0은 노말; 2.0은 더블."
@@ -7100,7 +7100,7 @@ msgid "Video driver"
 msgstr "비디오 드라이버"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr "시야의 흔들리는 정도"
 
 #: src/settings_translation_file.cpp

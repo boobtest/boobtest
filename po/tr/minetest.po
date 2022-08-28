@@ -2639,7 +2639,7 @@ msgid "Block send optimize distance"
 msgstr "Blok gönderme iyileştirme uzaklığı"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3419,8 +3419,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Görüntü sallanması için çarpan.\n"
 "Örneğin: 0 ise görüntü sallanması yok; 1.0 ise normal; 2.0 ise çift."
@@ -3525,7 +3525,7 @@ msgid "Factor noise"
 msgstr "Çarpan gürültüsü"
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr "Düşme sallanması çarpanı"
 
 #: src/settings_translation_file.cpp
@@ -5989,8 +5989,8 @@ msgstr "Çamur gürültüsü"
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Düşme sallanması için çarpan.\n"
 "Örneğin: 0 ise görüntü sallanması yok; 1.0 ise normal; 2.0 ise çift."
@@ -7529,7 +7529,7 @@ msgid "Video driver"
 msgstr "Video sürücüsü"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr "Görünüm sallanması çarpanı"
 
 #: src/settings_translation_file.cpp

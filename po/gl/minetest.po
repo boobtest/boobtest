@@ -2662,7 +2662,7 @@ msgid "Block send optimize distance"
 msgstr "Distancia de optimización do envío de bloques"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3441,8 +3441,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Activa o balanceo de vista e canto o fai.\n"
 "Por exemplo: 0 para nada de balanceo; 1.0 para o normal; 2.0 para o dobre."
@@ -3550,7 +3550,7 @@ msgid "Factor noise"
 msgstr "Factor de ruído"
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr "Factor de balanceo en caída"
 
 #: src/settings_translation_file.cpp
@@ -6044,8 +6044,8 @@ msgstr "Ruído do lodo"
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Multiplicador para balanceo dos brazos en caída.\n"
 "Por exemplo: 0 para velos estáticos; 1.0 para normal; 2.0 para o dobre."
@@ -7595,7 +7595,7 @@ msgid "Video driver"
 msgstr "Controlador de vídeo"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr "Ver o factor de balance"
 
 #: src/settings_translation_file.cpp

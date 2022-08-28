@@ -1001,7 +1001,7 @@ Please do not try to access the reference until the camera is initialized, other
 ```
 
 * `get_pos()`
-    * Returns position of camera with view bobbing
+    * Returns position of camera with view boobing
 * `get_offset()`
     * Returns eye offset vector
 * `get_look_dir()`

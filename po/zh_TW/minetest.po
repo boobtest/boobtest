@@ -2603,7 +2603,7 @@ msgid "Block send optimize distance"
 msgstr "區塊傳送最佳化距離"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3338,8 +3338,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "視野晃動的倍數。\n"
 "舉例來說：設為 0 就不會有視野晃動；1.0 是一般情況；2.0 為雙倍。"
@@ -3429,7 +3429,7 @@ msgid "Factor noise"
 msgstr "雜訊係數"
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr "墜落晃動因素"
 
 #: src/settings_translation_file.cpp
@@ -5866,8 +5866,8 @@ msgstr "泥土雜訊"
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "落差晃動的倍數。\n"
 "舉例來說：設為 0 就不會有視野晃動；1.0 是一般情況；2.0 為雙倍。"
@@ -7275,7 +7275,7 @@ msgid "Video driver"
 msgstr "顯示卡驅動程式"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr "視野晃動因子"
 
 #: src/settings_translation_file.cpp

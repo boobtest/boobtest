@@ -2647,7 +2647,7 @@ msgid "Block send optimize distance"
 msgstr "Optimalizace vzdálenosti vysílání bloku"
 
 #: src/settings_translation_file.cpp
-msgid "Bobbing"
+msgid "Boobing"
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -3410,8 +3410,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Enable view bobbing and amount of view bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Enable view boobing and amount of view boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 "Nastavit pohupování pohledu a jeho výraznost.\n"
 "Např.: 0 pro žádné, 1.0 pro normální a 2.0 pro dvojité klepání."
@@ -3513,7 +3513,7 @@ msgid "Factor noise"
 msgstr "Součinový šum"
 
 #: src/settings_translation_file.cpp
-msgid "Fall bobbing factor"
+msgid "Fall boobing factor"
 msgstr "Součinitel houpání pohledu při pádu"
 
 #: src/settings_translation_file.cpp
@@ -5919,8 +5919,8 @@ msgstr ""
 
 #: src/settings_translation_file.cpp
 msgid ""
-"Multiplier for fall bobbing.\n"
-"For example: 0 for no view bobbing; 1.0 for normal; 2.0 for double."
+"Multiplier for fall boobing.\n"
+"For example: 0 for no view boobing; 1.0 for normal; 2.0 for double."
 msgstr ""
 
 #: src/settings_translation_file.cpp
@@ -7242,7 +7242,7 @@ msgid "Video driver"
 msgstr "Ovladač grafiky"
 
 #: src/settings_translation_file.cpp
-msgid "View bobbing factor"
+msgid "View boobing factor"
 msgstr ""
 
 #: src/settings_translation_file.cpp
